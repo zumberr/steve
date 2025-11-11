@@ -1,0 +1,112 @@
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(26, 26, 26, 0.3);
+}
+
+.btn-secondary {
+    background: #fff;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+}
+
+.btn-secondary:hover {
+    background: #1a1a1a;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.btn-icon {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-icon:hover {
+    background: #1a1a1a;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    background: #fff;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #1a1a1a;
+}
+
+.textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    background: #fff;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #1a1a1a;
+}
